@@ -1,0 +1,63 @@
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.form-control {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+select, input {
+  padding: 8px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button.add {
+  background: #28a745;
+  color: white;
+}
+
+button.edit {
+  background: #ffc107;
+  color: white;
+}
+
+button.delete {
+  background: #dc3545;
+  color: white;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+th {
+  background: #f1f1f1;
+}
